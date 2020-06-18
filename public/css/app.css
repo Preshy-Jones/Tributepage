@@ -1,0 +1,182 @@
+body{
+    font-family:Roboto;
+      margin:0;
+    background-color:#f1f1f1;
+    width:100%;
+  }
+  #main{
+    background-color:#f1f1f1;
+    width:100%;
+  }
+  
+  #navbar{
+    height:25px;
+    display:flex;
+    justify-content:flex-startcenter;
+    margin-top:10px;
+  }
+  #navbar #aboutgoku{
+    align-self:center;
+    margin-right:24px;
+    margin-left:2%;
+    text-decoration:none;
+    color:#000;
+  }
+  #navbar #dbseries{
+    align-self:center;
+    margin-right:24px;
+    text-decoration:none;
+    color:#000;
+  
+  }
+  #navbar #aboutgoku:hover{
+    text-decoration:underline;
+    cursor:pointer;
+  }
+  #navbar #dbseries:hover{
+    text-decoration:underline;
+    cursor:pointer;
+  }
+  #title{
+    text-align:center;
+      padding-bottom: 28px;
+    border-bottom:1px solid #999;
+  }
+  #box-1{
+    background-color:#ddd;
+    position:relative;
+    height:700px;
+    width:100%;
+  }
+  #box-1 #img-caption{
+    position:absolute;
+    color:#fff;
+    top:12%;
+    left:37%;
+    color:#888;
+  }
+  #box-1 #image{
+    transform: scale(0.6, 0.6);
+  -ms-transform: scale(0.6, 0.6);
+  -webkit-transform: scale(0.6, 0.6);
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+    margin:auto;
+  }
+  #aboutgokubuttonhref{
+    position:absolute;
+    top:92%;
+    color:#ddd;
+  }
+  #tribute-info{
+    width:100%;
+    height:700px;
+  }
+  #tribute-info h2{
+    margin-top:60px;
+    text-align:center;
+  }
+  #tribute-info p{
+    text-align:center;
+    margin-top:70px;
+    margin-left:33%;
+    margin-right:33%;
+    font-size:20px;
+  }
+  #box-2{
+    background-color:#ddd;
+    position:relative;
+    height:700px;
+    width:100%;
+    border-bottom:1px solid #999;
+  }
+  #series{
+    position:absolute;
+    top:1%;
+    left:42%;
+    text-align:center;
+  }
+  #list{
+    position:absolute;
+    top:12%;
+    left:39%;
+    text-align:center;
+  }
+  #flex-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  #super{
+    position:absolute;
+    top:22%;
+    left:13%;
+   height:311px;
+    width:220px;
+    overflow:hidden;
+    border:1px solid #999;
+  }
+  #z{
+    position:absolute;
+    top:22%;
+    left:41.%;
+    height:311px;
+    width:220px;
+    overflow:hidden;
+    border:1px solid #999;
+  }
+  #original{
+    position:absolute;
+    top:22%;
+    left:69%;
+    height:311px;
+    width:220px;
+    overflow:hidden;
+    border:1px solid #999;
+  }
+  #sup{
+    color:#000;
+    position:absolute;
+    top:69%;
+    left:15.8%;
+    text-decoration:none;
+  }
+  .tribute-info ul {
+      list-style: none;
+  }
+  #dbz{
+    color:#000;
+    position:absolute;
+    top:69%;
+    left:45.9%;
+    text-decoration:none;
+  }
+  #orig{
+    color:#000;
+    position:absolute;
+    top:69%;
+    left:73.8%;
+    text-decoration:none;
+  }
+  #box-2 a:hover{
+    text-decoration:underline;
+    cursor:pointer;
+  }
+  #learnmore{
+    font-size:17px;
+    position:absolute;
+    top:85%;
+  }
+  #learnmore a{
+    font-weight:bold;
+    text-decoration:underline;
+  }
+  #learnmore a:hover{
+    color:blue;
+    cursor:pointer;
+  }
+  footer{
+    text-align:center;
+    font-style:italic;
+  }
